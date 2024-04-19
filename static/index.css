@@ -52,5 +52,12 @@ nav{
 }
 .ftr-a{
 	color: black;
-	
+
+}
+@media screen and (max-width:750px) {
+	.container{
+		width: 90%;
+		margin: 5%;
+		height: auto;
+	}
 }
