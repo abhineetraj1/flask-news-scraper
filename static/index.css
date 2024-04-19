@@ -1,0 +1,56 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: Cambria Math;
+}
+nav{
+	background: black;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	box-shadow: 0px 0px 10px black;
+}
+#sug{
+	text-align: center;
+}
+.sug-a{
+	text-decoration: none;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#content{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.container{
+	width: 17%;
+	margin: 2%;
+	padding: 2%;
+	float: left;
+	height: 200px;
+	background: white;
+}
+.container-title{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: left;
+}
+.container-descr{
+	font-size: 15px;
+	margin-top: 0px;
+	padding-top: 3px;
+	text-align: left;
+}
+#ftr{
+	width: 100%;
+	text-align: center;
+}
+.ftr-a{
+	color: black;
+	
+}

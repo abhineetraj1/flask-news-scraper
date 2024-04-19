@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{title}}</title>
+	<link rel="shortcut icon" href="/static/favicon.jpeg">
+	<link rel="stylesheet" type="text/css" href="/static/index.css">
+</head>
+<body>
+
+<nav>News Headlines</nav>
+<p id="sug">
+	<a class="sug-a" href="/section/business/page/1">Business</a>
+	<a class="sug-a" href="/section/Cities/page/1">Cities</a>
+	<a class="sug-a" href="/section/Entertainment/page/1">Entertainment</a>
+	<a class="sug-a" href="/section/Sports/page/1">Sports</a>
+	<a class="sug-a" href="/section/Politics/page/1">Politics</a>
+	<a class="sug-a" href="/section/Lifestyle/page/1">Lifestyle</a>
+	<a class="sug-a" href="/section/Tech/page/1">Tech</a>
+</p>
+
+<p id="ftr">
+	<a class="ftr-a" href="/section/{{category}}/page/{{pp}}">Previous page</a>
+	or
+	<a class="ftr-a" href="/section/{{category}}/page/{{np}}">Next page</a>
+</p>
+<div id="content">
+{% for i in news %}
+	<div class="container">
+		<p class="container-title">{{i[0]}}</p>
+		<p class="container-descr">{{i[1]}}</p>
+	</div>
+{% endfor %}
+</div>
+<br>
+</body>
+</html>
